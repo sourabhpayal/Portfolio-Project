@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(contacts.jpg);
+    background-size: auto;
+}
+
+
+header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+
+}
+
+header nav {
+    min-width: 55%;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+header nav ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+h2{
+    font-size: 27px;
+    margin: 3%;
+    color: white;
+
+}
+
+p{
+    font-size: 22px;
+    margin: 3%; 
+    color: white;
+
+}

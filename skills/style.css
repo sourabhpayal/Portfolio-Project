@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(skills.jpg);
+    background-size: cover;
+}
+
+
+header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+
+}
+
+header nav {
+    min-width: 55%;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+header nav ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+h2{
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 3%;
+}
+
+main div{
+    padding-left: 7%;
+}
+
+.skillslist{
+   margin: 3%;
+   font-size: 22px;
+
+}
+
+.skillslist ul li{
+    padding: 7px;
+}

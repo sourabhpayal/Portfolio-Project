@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+
+}
+
+header nav {
+    min-width: 55%;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+header nav ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+.section1 {
+    position: relative;
+    height: auto;
+}
+
+.img1 {
+    max-width: 100%;
+    z-index: -1;
+}
+
+.section1 h1 {
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 30%;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+
+
+.arrowsign {
+    position: absolute;
+    bottom: 12px;
+    left: 48%;
+    max-width: 6%;
+    animation: fade 0.6s ease-in-out 0s infinite alternate;
+}
+
+.section2 {
+    text-align: center;
+    padding: 45px 0;
+    background-color: white;
+    margin-top: -10px;
+    animation: fade 1000 ease-in-out 0 50 forwards;
+}
+
+.section2 h2 {
+    margin-bottom: 60px;
+    font-size: 35px;
+}
+
+.section2 p {
+    margin: 40px 16vw;
+    font-size: 25px;
+}
+
+
+.aboutmesection {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding: 5vw 12vw;
+    background-color: rgb(218, 223, 228);
+}
+
+.aboutmetext {
+    max-width: 400px;
+    min-width: 300px;
+    padding: 0 10vw 0 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutmetext h3 {
+    font-size: 40px;
+    padding-bottom: 5vh;
+}
+
+.aboutmetext p {
+    font-size: 25px;
+
+}
+
+#aboutmebutton {
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: rgb(218, 223, 228);
+    cursor: pointer;
+    display: inline;
+}
+
+.aboutmeimg {
+    max-width: 35vw;
+    min-width: 400px;
+    padding: 25px 0;
+}
+
+.skillssection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5vw 12vw;
+    background-color: white;
+}
+
+.skillstext {
+    padding: 0 0 0 10vw;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 300px;
+
+}
+
+.skillstext h3 {
+    font-size: 40px;
+    padding-bottom: 5vh;
+}
+
+.skillstext p {
+    font-size: 25px;
+
+}
+
+#skillsbutton {
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: white;
+    cursor: pointer;
+    display: inline;
+}
+
+.skillsimg {
+    max-width: 35vw;
+    min-width: 400px;
+    padding: 25px 0;
+}
+
+.projectsection {
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: relative;
+
+}
+
+.projectsection h3 {
+    font-size: 45px;
+    padding: 5vh 0;
+}
+
+.projectbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 5vw;
+
+}
+
+.project {
+    min-width: 300px;
+}
+
+.project p {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.projectimg {
+    min-width: 300px;
+    max-width: 23vw;
+
+}
+
+#projectsbutton {
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+
+.contacts {
+    text-align: center;
+    color: white;
+    padding-top: 30vh;
+}
+
+.contacts h3 {
+    font-size: 35px;
+    padding: 5vh 0;
+
+}
+
+.contacts p {
+    font-size: 25px;
+    padding: 5vh 0;
+}
+
+#contactsbutton {
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.lastimgdiv {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.lastimg {
+    max-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    z-index: -10;
+    top: 1px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 5vh 0;
+
+}
+
+footer h4 {
+    padding: 30px 15px;
+}
+
+footer p {
+    padding: 0 15px;
+}
+
+.copy {
+    text-align: center;
+}

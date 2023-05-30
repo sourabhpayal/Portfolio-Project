@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+
+}
+
+header nav {
+    min-width: 55%;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+header nav ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+
+.projectsection {
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.projectsection h3 {
+    font-size: 45px;
+    padding: 5vh 0;
+}
+
+.projectbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 5vw;
+
+}
+
+.project {
+    min-width: 300px;
+}
+
+.project p {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.projectimg {
+    min-width: 300px;
+    max-width: 23vw;
+
+}

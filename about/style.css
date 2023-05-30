@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(about.jpg);
+    background-size: cover;
+    color: white;
+
+}
+
+header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+
+}
+
+header nav {
+    min-width: 55%;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+header nav ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+
+
+p{
+
+    font-size: 21px;
+    width: 75%;
+    padding: 5% 0 0 5%;
+}
